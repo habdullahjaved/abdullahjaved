@@ -35,7 +35,7 @@ export default function Hero() {
       </div>
 
       {/* RIGHT IMAGE */}
-      <div className="flex-1 flex justify-center md:justify-end">
+      <div className="flex-1 flex justify-center">
         <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl border border-white/10">
           <Image
             src="/Abdullah-Javed.jpg"

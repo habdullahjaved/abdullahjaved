@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full overflow-hidden relative">
+          <div className="w-20 h-15 overflow-hidden relative">
             {/* Add a small version of your photo or a logo */}
             <Image
               src="/logo.png" // You might want to use a different image for logo
@@ -29,7 +29,7 @@ export default function Navbar() {
               className="object-cover"
             />
           </div>
-          <span className="font-bold text-xl">Abdullah</span>
+          {/* <span className="font-bold text-xl">Abdullah</span> */}
         </div>
 
         {/* Desktop Links */}
